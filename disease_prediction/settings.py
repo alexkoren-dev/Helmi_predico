@@ -73,7 +73,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'disease_prediction.wsgi.application'
 
-
+#x=5
 
 import dj_database_url
 DATABASES = {
