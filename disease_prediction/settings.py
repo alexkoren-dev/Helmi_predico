@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'IotPredctionDiseaseSystem.wsgi.application'
+WSGI_APPLICATION = 'disease_prediction.wsgi.application'
 
 #x=5
 
