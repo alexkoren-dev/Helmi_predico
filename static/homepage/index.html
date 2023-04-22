@@ -1,0 +1,348 @@
+﻿
+{% extends "basic.html" %}
+{% load static %}
+
+ 
+	{% block head %}
+
+
+{% endblock %}
+
+
+
+
+{% block body %}
+
+
+    
+<div class="jumbotron" id="particles-js">
+    <h1 class="display-4">Be your own doctor...</h1>
+    <p class="lead" >
+      Our platform is designed to predict diseases based on user-provided symptoms, <span style="color:blue; font-weight:350;">using algorithms that analyze health data gathered from connected devices.</span>. With our website, users can become their own healthcare providers by accessing personalized disease predictions and real-time chat support with available doctors. Our platform offers a login feature for both patients and doctors, ensuring secure and convenient access to health data and consultations. We value our users' feedback and provide a feedback mechanism to continually improve our services. Our website represents the future of healthcare services, empowering individuals to take control of their health and well-being through <span style="color:blue; font-weight:350;">IoT technology</span>. Join us today to experience the next level of personalized healthcare services.
+
+
+
+
+
+
+
+    
+                
+  
+     {% if user.is_authenticated %}
+
+     
+     {% else %}
+
+      <p class="lead">
+      <center><button type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target=".bd-example-modal-lg">Get started</button></center>
+      </p>
+    
+
+</div>
+
+<br><br><br>
+<div class="container mt-5 mb-3" style="width:fit-content;">
+      <center>
+        <h1>Sign-In  As</h1>
+        </center>
+      
+      
+      <form>
+          <div class="container mt-5 mb-5">
+       <div class="row" id="ax">
+          <div class="col">
+             <a href="{% url 'sign_in_admin' %}">
+      <img  alt="admin" src="{% static 'homepage/admin.png' %}"  class="img">
+      </a>
+          </div>
+      
+          <div class="col">
+      <a href="{% url 'sign_in_doctor' %}">
+      <img  alt="doctor" src="{% static 'homepage/doctor.png' %}"  class="img">
+      </a>
+          </div>
+      
+          <div class="col">
+      <a href="{% url 'sign_in_patient' %}">
+      <img  alt="patient" src="{% static 'homepage/patient.png' %}"  class="img">
+      </a>
+          </div>
+        </div>
+        </div>
+      </form>
+</div>
+
+
+    
+
+    {% endif %}
+
+<br><br>
+
+
+
+
+<!-- Large modal -->
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+   
+<center>
+  <h1>Sign-In  As</h1>
+  </center>
+<br><br>
+
+<center>
+<form>
+    <div class="container mt-5 mb-5">
+ <div class="row" id="ax">
+    <div class="col">
+       <a href="{% url 'sign_in_admin' %}">
+<img  alt="admin" src="{% static 'homepage/admin.png' %}"  class="img">
+</a>
+    </div>
+
+    <div class="col">
+<a href="{% url 'sign_in_doctor' %}">
+<img  alt="doctor" src="{% static 'homepage/doctor.png' %}"  class="img">
+</a>
+    </div>
+
+    <div class="col">
+<a href="{% url 'sign_in_patient' %}">
+<img  alt="patient" src="{% static 'homepage/patient.png' %}"  class="img">
+</a>
+    </div>
+  </div>
+  </div>
+</form>
+</center>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Large modal -->
+
+<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+   
+<center>
+  <h1>Sign-Up  As</h1>
+  </center>
+<br><br>
+
+<center>
+<form>
+    <div class="container mt-5 mb-5 ml-5 mr-5">
+ <div class="row" id="ax">
+
+    <div class="col">
+<a href="{% url 'signup_doctor' %}">
+<img  alt="doctor" src="{% static 'homepage/doctor.png' %}"  class="img">
+</a>
+    </div>
+
+    <div class="col">
+<a href="{% url 'signup_patient' %}">
+<img  alt="patient" src="{% static 'homepage/patient.png' %}"  class="img">
+</a>
+    </div>
+  </div>
+  </div>
+</form>
+</center>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<br><br><br><br>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    <div style="margin-right:-30px; margin-left:-32px;" id="footer" class="card bg-dark text-white">
+      <div class="card-body">
+
+        <div class="footer-copyright text-center">© 2023 Copyright HelmiPredico</div>
+      
+    
+  </div>
+  </div>
+
+  
+ 
+
+
+
+
+
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    
+
+<style>
+
+ body{
+  overflow-x : hidden ;
+ }
+  /*max wdith 700px*/  
+  @media (max-width: 700px) {
+    #ax{
+      transform:  translatex(90px);
+    }
+  }
+  <style>
+    <script>
+
+
+      particlesJS('particles-js', {
+        // Specify the Particle.js settings here
+        // For example:
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "src": "img/github.svg",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "repulse"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 400,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
+    </script>
+      
+
+
+    
+{% endblock %}
