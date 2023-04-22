@@ -16,11 +16,19 @@ First make sure are installed <a href="https://www.postgresql.org/download/">Pos
 https://www.kaggle.com/neelima98/disease-prediction-using-machine-learning
 ### Some Sceenshots of This Webapp -
 
-![](https://github.com/anuj-glitch/Disease-Prediction-using-Django-and-machine-learning/blob/master/screenshots/Capture1.PNG)
-![](https://github.com/anuj-glitch/Disease-Prediction-using-Django-and-machine-learning/blob/master/screenshots/Capture2.PNG)
-![](https://github.com/anuj-glitch/Disease-Prediction-using-Django-and-machine-learning/blob/master/screenshots/Capture3.PNG)
-![](https://github.com/anuj-glitch/Disease-Prediction-using-Django-and-machine-learning/blob/master/screenshots/Capture4.PNG)
-![](https://github.com/anuj-glitch/Disease-Prediction-using-Django-and-machine-learning/blob/master/screenshots/Capture5.PNG)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture1.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture2.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture3.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture4.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture5.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture6.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture7.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture8.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture9.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture10.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture11.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture12.jpg)
+![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture13.jpg)
 
 
 ### ***Go to the [Readme.pdf](Readme.pdf) file for detailed information about the project & screenshots.***
