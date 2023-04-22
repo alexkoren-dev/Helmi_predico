@@ -75,19 +75,11 @@ WSGI_APPLICATION = 'disease_prediction.wsgi.application'
 
 
 
-
+import dj_database_url
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'webproject2',
-        'USER': 'helmi',
-        'PASSWORD': 'Helmi2003',
-        'HOST': 'localhost',
-        'PORT': '5432',
-       
-       
-    }
+    'default': dj_database_url.parse('postgres://production_nu29_user:YMbCBqNqxwm0tkNXPb2JJ4yQQQNZeVKU@dpg-ch1vun5269v61fb1b1dg-a.ohio-postgres.render.com/production_nu29')
 }
+
 
 
 # Password validation
