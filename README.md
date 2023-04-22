@@ -31,6 +31,6 @@ https://www.kaggle.com/neelima98/disease-prediction-using-machine-learning
 ![](https://github.com/HelmiDev03/IotPredctionDiseaseSystem/blob/main/screenshots/Picture13.jpg)
 
 
-### ***Go to the [Readme.pdf](Readme.pdf) file for detailed information about the project & screenshots.***
-and if you like this project, do give it a "Star" Thank you..
+### ***Go to the [Official Documentation](Cahier De Charge.pdf) file for detailed information about the project 
+and if you like this idea, a star means a lot
 
