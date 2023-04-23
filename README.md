@@ -3,7 +3,7 @@ Data  collection has been done from the internet to identify the disease here th
 The symptoms of the disease are collected from kaggle.com which is website with a largest of datasets has made using ML & Iot .
 This csv file contain 5000 rows of record of the patients with their symptoms(132 types of different symptoms) and their corresponding disease(40 class of general disease)  ,  After the data is collected, it is securely transmitted to the system’s servers for analysis. With the help of Internet of Things (IoT) technology, the data is modified depending  on the  users devices, ensuring seamless integration with the system. The modified data is showed so to the patient with the most disease predcited . 
 # How To Use This
-First make sure are installed <a href="https://www.postgresql.org/download/">PostgreSQL</a> and <a href="https://www.postgresql.org/ftp/pgadmin/pgadmin4/">pgadmin</a> is install in your system. 
+First make sure <a href="https://www.postgresql.org/download/">PostgreSQL</a> and <a href="https://www.postgresql.org/ftp/pgadmin/pgadmin4/">PgAdmin</a> are  installed in your system. 
 
 
 - Run pip install -r requirements.txt to install dependencies
